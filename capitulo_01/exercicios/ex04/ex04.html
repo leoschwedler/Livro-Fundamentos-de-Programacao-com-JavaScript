@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 04</title>
+    <meta name="description" content="Exercicio 04" />
+    <style>
+      #resultado {
+        white-space: pre-line;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <form id="form">
+        <div>
+          <label for="nota1">Nota 1:</label>
+          <input
+            type="number"
+            id="nota1"
+            name="nota1"
+            required
+            placeholder="Digite a nota 1"
+          />
+        </div>
+        <div style="margin-bottom: 5px; margin-top: 5px">
+          <label for="nota2">Nota 2:</label>
+          <input
+            type="number"
+            id="nota2"
+            name="nota2"
+            required
+            placeholder="Digite a nota 2"
+          />
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <div><span id="resultado" style="margin-top: 5px"></span></div>
+      </form>
+    </main>
+    <script src="ex04.js"></script>
+  </body>
+</html>
